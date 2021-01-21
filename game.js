@@ -67,7 +67,7 @@ getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score)
 
-        return window.location.assign('https://affanderaiya.github.io/Basketball_Quiz_Affan.github.io/endpage.html')
+        return window.location.assign("https://affanderaiya.github.io/Basketball_Quiz_Affan.github.io/endpage.html")
     }
 
     questionCounter++
