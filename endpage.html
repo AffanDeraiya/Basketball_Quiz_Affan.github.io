@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Playing!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/878809d8a6.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h1 id="finalScore">0</h1>
+            <form class="end-form-container">
+                <h2 id="end-text">Enter name to save Score and compete with friends!</h2>
+                <input type="text" name="name" id="username" placeholder="Enter your name!">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore (event)">Save</button>
+            </form>
+            <a href="/game.html" class="btn">You want to try again?</a>
+            <a href="/index.html" class="btn">Go Home<i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+
+</html>
