@@ -33,6 +33,6 @@ saveHighScore = e => {
     highScore.splice(5)
 
     localStorage.setItem('highScore', JSON.stringify(highScore))
-    window.location.assign('/highscore.html')
+    window.location.assign('https://affanderaiya.github.io/Basketball_Quiz_Affan.github.io/highscore.html')
 
 }
